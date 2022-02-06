@@ -26,3 +26,6 @@ console.log("hi " + myName);
 
 const c = true;
 console.log(c);
+
+// null
+// 존재하지 않은, 아무것도 없음을 의미
