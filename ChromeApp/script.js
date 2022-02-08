@@ -1,9 +1,6 @@
 // function
-function sayHello() {
-  console.log("hello");
+function plus(firstNumber, secondNumber) {
+  console.log(firstNumber + secondNumber);
 }
 
-sayHello();
-sayHello();
-sayHello();
-sayHello();
+plus(8, 60);
