@@ -1,3 +1,9 @@
-const title = document.getElementById("title");
+// function
+function sayHello() {
+  console.log("hello");
+}
 
-console.log(title);
+sayHello();
+sayHello();
+sayHello();
+sayHello();
