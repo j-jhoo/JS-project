@@ -12,3 +12,14 @@
 // 많은 양의 데이터를 넣고 싶을 때
 // array
 // [1,2,3,4,false,null,undefined,'text']
+
+// function -> 함수는 어떤 일을 수행하고 그 결과를 알려주는 것
+// return 키워드
+const age = 96;
+function calculaterKrAge(ageOfForeigner) {
+  return ageOfForeigner + 2;
+}
+
+const krAge = calculaterKrAge(age);
+
+console.log(krAge);
