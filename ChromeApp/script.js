@@ -30,6 +30,7 @@
 // // isNaN은 boolean(true/false)를 반환한다.
 // // -> age가 숫자가 아니다!라는 뜻
 
+// 조건문
 // if (true) {
 //   console.log("숫자 적어줘");
 // }
