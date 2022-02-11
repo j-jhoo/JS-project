@@ -37,8 +37,16 @@
 
 const age = parseInt(pompt("How old are you?"));
 
+// if (isNaN(age)) {
+//   console.log("please write a number");
+// } else {
+//   console.log("Thank you for writing your age");
+// }
+// else if사용
 if (isNaN(age)) {
   console.log("please write a number");
+} else if (age < 18) {
+  console.log("You are too young");
 } else {
-  console.log("Thank you for writing your age");
+  console.log("You can drink");
 }
