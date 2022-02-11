@@ -34,3 +34,11 @@
 // if (true) {
 //   console.log("숫자 적어줘");
 // }
+
+const age = parseInt(pompt("How old are you?"));
+
+if (isNaN(age)) {
+  console.log("please write a number");
+} else {
+  console.log("Thank you for writing your age");
+}
