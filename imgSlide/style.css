@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url("https://images.unsplash.com/photo-1560121160-d0d230141128?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1834&q=80")
+    no-repeat;
+  background-size: cover;
+  background-position: middle center;
+}
+
+main {
+  width: 1000px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 20px 5px 30px rgba(0, 0, 0, 0.8);
+}
