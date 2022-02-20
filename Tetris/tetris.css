@@ -11,6 +11,7 @@ body {
 .score {
   text-align: center;
   font-size: 36px;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -36,4 +37,8 @@ body {
   width: 25px;
   height: 25px;
   outline: 1px solid #ccc;
+}
+
+.tree {
+  background: #67c23a;
 }
