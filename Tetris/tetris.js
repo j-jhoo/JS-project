@@ -73,10 +73,18 @@ function renderBlocks() {
       tempMovingItem = { ...movingItem };
       setTimeout(() => {
         renderBlocks(); // 재귀함수
+        if (moveType === "top") {
+          seizeBlock();
+        }
       }, 0);
     }
   });
+  movingItem.left = left;
+  movingItem.top = top;
+  movingItem.direction = direction;
 }
+
+function seizeBlock() {}
 
 function checkEmpty(target) {
   if (!target) {
