@@ -109,7 +109,7 @@ function seizeBlock() {
 }
 
 function checkEmpty(target) {
-  if (!target || target.classList.contains()) {
+  if (!target || target.classList.contains("seized")) {
     // contains : 포함하고 있는지 없는지 확인해주는 메서드
     return false;
   }
