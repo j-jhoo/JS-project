@@ -92,9 +92,12 @@ function renderBlocks(moveType = "") {
           seizeBlock();
         }
       }, 0);
+      return true;
     }
   });
-  return true;
+  movingItem.left = left;
+  movingItem.top = top;
+  movingItem.direction = direction;
 }
 
 function seizeBlock() {}
