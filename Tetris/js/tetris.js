@@ -1,4 +1,4 @@
-import BLOCKS from "./block";
+import BLOCKS from "./block.js";
 
 //Dom
 const playground = document.querySelector(".playground >  ul");
