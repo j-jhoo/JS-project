@@ -100,10 +100,17 @@ function renderBlocks(moveType = "") {
   movingItem.direction = direction;
 }
 
-function seizeBlock() {}
+function seizeBlock() {
+  const movingBlocks = document.querySelectorAll(".moving");
+  movingBlocks.forEach((moving) => {
+    moving.classList.remove("moving");
+    moving.classList.add("seized");
+  });
+}
 
 function checkEmpty(target) {
-  if (!target) {
+  if (!target || target.classList.contains()) {
+    // contains : 포함하고 있는지 없는지 확인해주는 메서드
     return false;
   }
   return true;
