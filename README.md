@@ -13,3 +13,6 @@
 
 2. JS를 사용하여 만든 계산기 
 ### ![계산기](https://user-images.githubusercontent.com/89238394/154484520-a9a517a9-53a4-48a1-8a92-978bda5125bc.gif)
+
+3. JS를 사용하여 만든 테트리스 
+### ![Feb-23-2022 21-32-23](https://user-images.githubusercontent.com/89238394/155321343-ef3e1303-f9c7-459f-abc5-969559e97776.gif)
