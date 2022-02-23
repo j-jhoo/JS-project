@@ -2,6 +2,8 @@ import BLOCKS from "./block.js";
 
 //Dom
 const playground = document.querySelector(".playground >  ul");
+const gameText = document.querySelector(".game-Text");
+const scoreDisplay = document.querySelector(".score");
 
 // setting
 const GAME_ROWS = 20;
@@ -148,7 +150,9 @@ function dropBlock() {
   }, 10);
 }
 
-function showGameoverText() {}
+function showGameoverText() {
+  gameText.style;
+}
 
 // event handling
 document.addEventListener("keydown", (e) => {
