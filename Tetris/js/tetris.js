@@ -4,6 +4,7 @@ import BLOCKS from "./block.js";
 const playground = document.querySelector(".playground >  ul");
 const gameText = document.querySelector(".game-Text");
 const scoreDisplay = document.querySelector(".score");
+const restartButton = document.querySelector(".score > button");
 
 // setting
 const GAME_ROWS = 20;
@@ -100,6 +101,8 @@ function checkMatch() {
     if (matched) {
       child.remove();
       prependNewLine();
+      score++;
+      scoreDisplay.innerText = score;
     }
   });
   generateNewBlock();
@@ -140,7 +143,7 @@ function changeDirection() {
   direction === 3
     ? (tempMovingItem.direction = 0)
     : (tempMovingItem.direction += 1);
-  renderBlocks;
+  renderBlocks();
 }
 
 function dropBlock() {
@@ -148,10 +151,6 @@ function dropBlock() {
   downInterval = setInterval(() => {
     moveBlock("top", 1);
   }, 10);
-}
-
-function showGameoverText() {
-  gameText.style;
 }
 
 // event handling
@@ -175,4 +174,10 @@ document.addEventListener("keydown", (e) => {
     default:
       break;
   }
+});
+
+restartButton.addEventListener("click", () => {
+  playground.innerHTML = "";
+  gameText.style.display = "none";
+  init();
 });
