@@ -59,8 +59,12 @@ function renderBlocks(moveType = "") {
       target.classList.add(type, "moving");
     } else {
       tempMovingItem = { ...movingItem };
+      if (moveType === "retry") {
+        clearInterval(downInterval);
+        showGameoverText();
+      }
       setTimeout(() => {
-        renderBlocks(); // 재귀함수
+        renderBlocks("retry"); // 재귀함수
         if (moveType === "top") {
           seizeBlock();
         }
@@ -143,6 +147,8 @@ function dropBlock() {
     moveBlock("top", 1);
   }, 10);
 }
+
+function showGameoverText() {}
 
 // event handling
 document.addEventListener("keydown", (e) => {
