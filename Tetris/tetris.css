@@ -40,5 +40,25 @@ body {
 }
 
 .tree {
-  background: #67c23a;
+  background: #80ff41;
+}
+
+.bar {
+  background: rgb(255, 92, 73);
+}
+
+.zee {
+  background: orange;
+}
+
+.square {
+  background: yellow;
+}
+
+.elLeft {
+  background: #b000fc;
+}
+
+.elRight {
+  background: blue;
 }
