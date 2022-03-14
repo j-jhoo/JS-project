@@ -142,3 +142,13 @@
 // }
 // if (url) location.href = "http://" + url;
 // // location.href = 원하는 url로 넘어가게 해줌.
+
+// p.75 반복문 (while)
+
+const i = 1;
+while (i <= 30) {
+  if (i % 2 == 0 && i % 6 == 0) {
+    document.write(i);
+  }
+  i++;
+}
