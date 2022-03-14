@@ -120,3 +120,25 @@
 // }
 
 // p.73 switch문
+// const site = prompt(
+//   "네이버, 다음, 구글 중 즐겨 사용한ㄴ 포털 검색 사이트는?",
+//   "0"
+// );
+
+// let url;
+
+// switch (site) {
+//   case "google":
+//     url = "www.google.com";
+//     break;
+//   case "naver":
+//     url = "www.naver.com";
+//     break;
+//   case "daum":
+//     url = "www.daum.net";
+//     break;
+//   default:
+//     alert("보기 중에 없는 사이트이니다.");
+// }
+// if (url) location.href = "http://" + url;
+// // location.href = 원하는 url로 넘어가게 해줌.
