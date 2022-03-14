@@ -168,3 +168,27 @@
 //   document.write(i, "<br />");
 // }
 // document.write("end");
+
+// p.84 mission1-1
+// while문을 이용하여 구구단 중 5단을 출력하시오.
+// let i = 1;
+// while (i <= 9) {
+//   document.write("5X" + i + "=" + i * 5, "<br />");
+//   i++;
+// }
+
+// p.84 mission1-2
+// let num = 1;
+// let t = "<table border='1'>";
+// for (let i = 1; i <= 5; i++) {
+//   t += "<tr>";
+
+//   for (let k = 1; k <= 5; k++) {
+//     t += "<td>" + num + "</td>";
+//     num++;
+//   }
+//   t += "</tr>";
+// }
+// t += "</table>";
+
+// document.write(t);
