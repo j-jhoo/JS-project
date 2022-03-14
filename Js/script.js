@@ -53,3 +53,29 @@
 
 // let result = fourth >= avgSales ? msg1 : msg2;
 // document.write(result);
+
+// // 제어문 62p
+// const amount = prompt("하루 걸음수는??", "0");
+
+// if (amount >= 10000) {
+//   document.write("출력");
+// } else {
+//   document.write("-----end-----");
+// }
+
+// p.63
+// const amount = prompt("하루 통화량이 몇분 ?", "0");
+// if (amount >= 60) {
+//   document.write("통화량이 많으시네여");
+// } else {
+//   document.write("끝");
+// }
+
+// p.65
+// const num = prompt("좋아하는 숫자 입력", "0");
+
+// if (num % 2 == 0) {
+//   document.write("짝수");
+// } else {
+//   document.write("홀수");
+// }
