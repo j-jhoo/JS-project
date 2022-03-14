@@ -143,12 +143,21 @@
 // if (url) location.href = "http://" + url;
 // // location.href = 원하는 url로 넘어가게 해줌.
 
-// p.75 반복문 (while)
+// // p.75 반복문 (while)
 
-const i = 1;
-while (i <= 30) {
-  if (i % 2 == 0 && i % 6 == 0) {
-    document.write(i);
-  }
-  i++;
-}
+// const i = 1;
+// while (i <= 30) {
+//   if (i % 2 == 0 && i % 6 == 0) {
+//     document.write(i);
+//   }
+//   i++;
+// }
+
+// p.79 for문
+// for (let i = 1; i < 100; i++) {
+//   if (i % 5 == 0) {
+//     document.write("<p class='red'>" + i + "</p>");
+//   } else if (i % 7 == 0) {
+//     document.write("<p class='green'>" + i + "</p>");
+//   }
+// }
