@@ -79,3 +79,11 @@
 // } else {
 //   document.write("홀수");
 // }
+
+// // p.67 comfirm(확인, 취소 창이 있는 창)
+// const result = confirm("회원 탈퇴하실거??");
+// if (result) {
+//   document.write("탈퇴 처리 되심.");
+// } else {
+//   document.write("탈퇴 실패");
+// }
