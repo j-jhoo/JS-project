@@ -87,3 +87,36 @@
 // } else {
 //   document.write("탈퇴 실패");
 // }
+
+// // p. 69 else if
+// const mon = prompt("현재는 몇 월입니까?", "0");
+
+// if (mon >= 9 && mon <= 11) {
+//   document.write("독서의 계절");
+// } else if (mon >= 6 && mon <= 8) {
+//   document.write("여행가기 좋은 여름");
+// } else if (mon >= 3 && mon <= 5) {
+//   document.write("햇살 가득 봄");
+// } else {
+//   document.write("스키의 계절 겨울");
+// }
+
+// p.70
+// const id = "1234";
+// const pw = "112233";
+
+// let userId = prompt("id는?", "0");
+// let userPw = prompt("pw는?", "0");
+
+// if (id === userId) {
+//   if (pw === userPw) {
+//     document.write("userId님 반갑습니다.");
+//   } else {
+//     alert("비밀번호가 틀렸습니다.");
+//     location.reload();
+//   }
+// } else if (id !== userId) {
+//   alert("아이디가 일치하지 않습니다.");
+// }
+
+// p.73 switch문
