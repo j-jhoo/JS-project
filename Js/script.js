@@ -192,3 +192,27 @@
 // t += "</table>";
 
 // document.write(t);
+
+// 배열 객체 메서드
+const arr1 = ["사당", "교대", "방배", "강남"];
+const arr2 = ["신사", "압구정", "옥수"];
+
+// // 배열의 저장된 값을 지정한 문자로 연결하여 하나의 무자열을 반환
+// const result = arr1.join(" - ");
+// console.log(result);
+
+// // 2개의 배열을 하나의 배열로 만들어 반환
+// const result2 = arr1.concat(arr2);
+// console.log(result2);
+
+// // 배열의 1번 이전의 인덱스 요소를 잘라내고 남은 값을 반환
+// const result3 = arr1.slice(1, 4);
+// console.log(result3);
+
+// // 배열의 값을 오름차순으로 정렬
+// const result4 = arr1.sort();
+// console.log(result4);
+
+// // 배열 순서를 거꾸로 뒤집으시오
+// const result5 = arr2.reverse();
+// console.log(result5);
